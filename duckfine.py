@@ -13,7 +13,7 @@ class DuckFine:
 		fee = chargeable * self.DAILY_FEE
 		if deluxe:
 			fee *= 2
-		# fee = min(fee, self.MAX_FEE) 
+		fee = min(fee, self.MAX_FEE) 
 		self.total_owed += fee 
 		return fee
 	#asdcascds
