@@ -1,4 +1,5 @@
 import unittest
+
 from duckfine import DuckFine
 
 
