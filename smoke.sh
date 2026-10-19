@@ -9,8 +9,5 @@ curl -fs "$BASE/health" > /dev/null 2>&1 && break
 sleep 1
 done
 curl -fsS "$BASE/fine?days=5" | jq -e '.fee == 1.5'
-Page 8 of 12
-SMU Classification: Restricted
-School of Computing and Information Systems IS212 Software Project Management
 curl -fsS "$BASE/fine?days=30&deluxe=1" | jq -e '.fee == 5'
 echo "Smoke tests passed against $BASE"
