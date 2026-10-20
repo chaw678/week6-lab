@@ -1,0 +1,3 @@
+flask
+apig-wsgi
+pytest
